@@ -6,6 +6,7 @@
   min-height: 100vh;
   padding: 2rem;
   box-sizing: border-box;
+  background-color: #f6f7fb;
 }
 
 .container {
@@ -14,25 +15,32 @@
   width: 100%;
   max-width: 600px;
   align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .row {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .label {
   margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
 }
 
-.inputField {
+.inputField, .selectField {
   padding: 0.5rem;
   border: 1px solid #eaeaea;
   border-radius: 4px;
   font-size: 16px;
   width: 100%;
-  max-width: 350px;
 }
 
 .submitButton {
@@ -45,11 +53,12 @@
   cursor: pointer;
   transition: background-color 0.15s ease;
   width: 100%;
-  max-width: 350px;
 }
 
-.submitButton:hover,
+.submitButton:hover {
+  background-color: black;
+}
 .submitButton:focus,
 .submitButton:active {
-  background-color: #e64d4d;
+  background-color: #FC5E5E;
 }

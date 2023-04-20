@@ -15,7 +15,6 @@ app.post('/api/send-text', (req, res) => {
   res.json({ message: `Form data received: ${JSON.stringify(formData)}` });
 });
 
-
 app.post('/api/send-text', (req, res) => {
   const { address } = req.body;
   console.log('Received text:', text);
@@ -29,7 +28,6 @@ app.get('/getBalance', async (req, res) => {
 });
 
 app.listen(3000, () => console.log('App listening on port 3000!'));
-
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {

@@ -101,7 +101,7 @@
 }
 
 .mintButton {
-  background-color: black;
+  background-color: #FC5E5E;
   border: none;
   color: white;
   text-align: center;
@@ -118,13 +118,13 @@
 }
 
 .mintButton:hover {
-  background-color: #FC5E5E;
+  background-color: black;
   box-shadow: 0 7px 20px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
 }
 
 .mintButton:active {
-  background-color: black;
+  background-color: #FC5E5E;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
   transform: translateY(1px);
 }
